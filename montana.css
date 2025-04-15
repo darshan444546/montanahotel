@@ -1,0 +1,863 @@
+#image_slider {
+    width: 100%;
+    overflow: hidden;
+}
+
+.carousel-inner {
+    height: 930px;
+}
+
+
+#montana_icon {
+    margin-left: 160px;
+    margin-top: 17px;
+}
+
+#heading_ul {
+    display: flex;
+    list-style-type: none;
+    gap: 300px;
+}
+
+#heading_sub_ul {
+    display: flex;
+    list-style-type: none;
+    gap: 30px;
+    color: white;
+    margin-top: 40px;
+    margin-left: -50px;
+}
+
+#heading_sub_ul a {
+    text-decoration: none;
+
+
+}
+
+
+#heading_sub_ul_2 {
+    margin-left: 200px;
+    width: 300px;
+    display: flex;
+    list-style-type: none;
+    gap: 20px;
+    margin-top: 25px;
+    align-items: center;
+}
+
+#heading_sub_ul_2 li {
+    display: flex;
+}
+
+.menu_items {
+    text-decoration: none;
+    color: white;
+}
+
+.menu_items:hover {
+    color: rgb(192, 192, 192);
+    transition: 0.4s;
+}
+
+.social_media_icons {
+    width: 20px;
+    height: 20px;
+    background-color: white;
+    border-radius: 50%;
+
+}
+
+.social_media_icons:hover {
+    filter: brightness(50%);
+    transition: 0.3s;
+}
+
+#Book_a_room {
+    width: 150px;
+    height: 45px;
+    background-color: #009DFF;
+    color: white;
+    border: none;
+    transition: 0.5s;
+}
+
+#Book_a_room:hover {
+    width: 150px;
+    height: 45px;
+    background-color: white;
+    border: 10px solid #009DFF;
+    color: #009DFF;
+    border: none;
+}
+
+.slide_images {
+    width: 100%;
+
+}
+
+
+.image_text {
+    position: absolute;
+    top: 40%;
+    left: 30%;
+    text-align: center;
+    color: white;
+    font-size: 2rem;
+    /* optional for contrast */
+    padding: 20px;
+    border-radius: 10px;
+
+}
+
+.image_text h3 {
+    font-size: 100px;
+}
+
+#header_container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    width: 100%;
+    background-color: transparent;
+    transition: background-color 0.4s ease;
+}
+
+
+#myCarousel {
+    position: relative;
+    z-index: 1;
+}
+
+.item {
+    height: 930px;
+}
+
+.down-arrow {
+    margin-left: 5px;
+    width: 20%;
+}
+
+#blog_and_arrow {
+    position: relative;
+}
+
+#blog_and_arrow:hover .dropdown_iteams {
+    transform: translateY(0);
+    opacity: 1;
+    visibility: visible;
+}
+
+.dropdown_iteams a {
+    text-decoration: none;
+    color: black;
+}
+
+.dropdown_iteams {
+    position: absolute;
+    top: 100%;
+    /* drops it just below the parent */
+    left: 0;
+    transform: translateY(20px);
+    opacity: 0;
+    visibility: hidden;
+    transition: transform 1s ease, opacity 0.3s ease, visibility 0.3s ease;
+    background-color: white;
+    color: black;
+    width: 150%;
+    padding: 10px;
+    z-index: 999;
+}
+
+
+
+.dropdown_button {
+    display: none;
+}
+
+#pages_and_arrow {
+    position: relative;
+    right: 30px;
+}
+
+#pages_and_arrow:hover .dropdown_iteams {
+    transform: translateY(0);
+    opacity: 1;
+    visibility: visible;
+}
+
+#MQ_header_BUTTON {
+    background-color: #222;
+    color: white;
+    display: flex;
+    width: 8%;
+    height: 50px;
+}
+
+#MQ_header_BUTTON img {
+    width: 30%;
+    height: 45px;
+
+}
+
+#three_dot_bar {
+    display: block;
+}
+
+.bar_div {
+    width: 35px;
+    height: 3px;
+    margin-top: 9px;
+    margin-left: 5px;
+    background-color: white;
+}
+
+#MQ_header {
+    display: none;
+}
+
+#heading_sub_ul_MQ {
+    display: block;
+    list-style-type: none;
+    background-color: black;
+    height: 500px;
+}
+
+#heading_sub_ul_MQ li {}
+
+
+#Hotel_with_Nature {
+    display: flex;
+    gap: 20px;
+    height: 750px;
+    padding-top: 150px;
+    padding-left: 350px;
+}
+
+#Hotel_with_Nature_images {
+    display: flex;
+    width: 4000px;
+    gap: 10px;
+}
+
+.Hotel_with_Nature_img {
+    width: 29%;
+    height: 420px;
+}
+
+#Hotel_with_Nature_text {
+    width: 2000px;
+}
+
+#Hotel_with_Nature_text h1 {
+    font-size: 50px;
+}
+
+#Ongoing_Offers {
+    text-align: center;
+    position: relative;
+    height: 950px;
+}
+
+#Ongoing_Offers h1 {
+    font-style: normal;
+    font-weight: 350;
+    font-size: 50px;
+}
+
+#Ongoing_Offers_sub {
+    display: flex;
+    gap: 30px;
+    text-align: left;
+    position: absolute;
+    left: 360px;
+    top: 190px;
+
+}
+
+.offers {
+    width: 39%;
+}
+
+.offers p {
+    font-size: 25px;
+    margin-top: 35px;
+}
+
+.offers img {
+    width: 370px;
+    height: 370px;
+    transition: 0.5s;
+}
+
+.offers img:hover {
+    transform: scale(1.5);
+    transition: 0.5s;
+}
+
+.hide_image_hoverflow {
+    overflow: hidden;
+}
+
+
+
+.offers ul {
+    margin-left: -13px;
+    color: grey;
+}
+
+.offers button {
+    margin-top: 15px;
+    width: 100%;
+    height: 40px;
+    color: #009DFF;
+    background-color: white;
+    border: 1px solid #009DFF;
+}
+
+.offers button:hover {
+    color: white;
+    background-color: #009DFF;
+    transition: 0.5s;
+
+}
+
+#video_div_img {
+    width: 100%;
+    height: 700px;
+    filter: brightness(70%);
+}
+
+#video_div {
+    position: relative;
+    z-index: 1;
+    text-align: center;
+}
+
+#play_image {
+    width: 12%;
+
+}
+
+#video_text {
+    color: white;
+    position: absolute;
+    bottom: 200px;
+    left: 700px;
+    z-index: 2;
+}
+
+#Fresh_and_Delicious {
+    position: relative;
+    width: 100%;
+}
+
+#Fresh_and_Delicious_sub {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 100px;
+    padding: 100px 0;
+}
+
+#Fresh_and_Delicious_images {
+    display: flex;
+    width: 28%;
+    gap: 10px;
+}
+
+#Fresh_and_Delicious_images img {
+    width: 100%;
+    height: 340px;
+}
+
+#Fresh_and_Delicious_text {
+    margin-top: 50px;
+}
+
+#Featured_Rooms col {
+    border: 1px solid black;
+    display: block;
+}
+
+.seaview_images {
+    width: 100%;
+    transition: 0.3s;
+    z-index: 1;
+    height: 500px;
+}
+
+.col-md-6 {
+    padding: 0px;
+    overflow: hidden;
+    height: auto;
+    position: relative;
+    text-align: left;
+}
+
+.seaview_images:hover {
+    transform: scale(1.1);
+    transition: 0.5s;
+}
+
+.seaview_images:hover .Book_Now {
+    opacity: 1;
+}
+
+.Featured_Rooms_text {
+    position: absolute;
+    bottom: 10px;
+    list-style-type: none;
+    z-index: 2;
+    display: flex;
+    gap: 600px;
+    color: white;
+}
+
+.Book_Now {
+    width: 11%;
+    position: absolute;
+    bottom: 30px;
+    left: 100%;
+    transform: translateX(-50%) translateY(20px);
+    opacity: 0;
+    transition: opacity 0.4s ease, transform 0.4s ease;
+    z-index: 3;
+
+
+}
+
+.col-md-6:hover .Book_Now {
+    opacity: 1;
+    transform: translateX(-50%) translateY(0);
+}
+
+.Book_Now a {
+    text-decoration: none;
+    color: white;
+    font-weight: 600;
+    text-transform: uppercase;
+    position: relative;
+    padding-bottom: 5px;
+    transition: color 0.3s ease;
+}
+
+.Book_Now a::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 2px;
+    width: 0%;
+    background-color: white;
+    transition: width 0.3s ease;
+}
+
+.Book_Now a:hover::after {
+    width: 110%;
+}
+
+
+#Featured_Rooms {
+    text-align: center;
+    margin-top: 100px;
+}
+
+#Reservation {
+    border: 1px solid black;
+    width: 55%;
+    height: 150px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+#Reservation ul {
+    display: flex;
+    list-style-type: none;
+
+    gap: 0px;
+    width: 100%;
+    padding-right: 0px;
+    margin-left: 30px;
+    margin-top: 54px;
+}
+
+#Reservation li {
+    width: 100%;
+}
+
+#Reservation button {
+    background-color: #009DFF;
+    color: white;
+    border: none;
+    width: 60%;
+    margin-left: 100px;
+    height: 50px;
+    font-size: 23px;
+    border-radius: 30px;
+    transition: 0.5s;
+}
+
+#Reservation button:hover {
+    background-color: white;
+    border: 1px solid #009DFF;
+    color: #009DFF;
+    transition: 0.5s;
+}
+
+
+#insta_posts_row {
+    padding: 0px;
+}
+
+.posts_div {
+    padding: 0px;
+    display: flex;
+    overflow: hidden;
+    position: relative;
+    width: 16.6%;
+
+}
+
+.posts_div:hover .insta_effect {
+    left: 0px;
+    transition: 0.5s;
+}
+
+.posts {
+    width: 100%;
+    height: 300px;
+
+
+}
+
+.insta_effect {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: -100%;
+    background: rgba(0, 0, 0, 0.3);
+    transition: left 0.5s ease;
+}
+
+.insta_effect img {
+    width: 10%;
+    margin-left: 150px;
+    margin-top: 140px;
+    height: auto;
+    filter: brightness(200%);
+}
+
+#footer_section {
+    background-color: black;
+    color: grey;
+    position: relative;
+    height: 300px;
+}
+
+#footer_ul_1 {
+    display: flex;
+    list-style-type: none;
+    gap: 100px;
+    top: 100px;
+    left: 350px;
+    position: absolute;
+}
+
+#footer_ul_2 {
+    display: block;
+    list-style-type: none;
+    margin-left: -20;
+}
+
+#submit {
+    background-color: #009DFF;
+    color: white;
+    border: none;
+    height: 29px;
+}
+
+#mail_field {
+    width: 60%;
+    margin-left: 30px;
+}
+
+@media only screen and (max-width: 600px) {
+    .slide_images {
+        width: 1200px;
+        height: 2500px;
+        /* or whatever looks good on mobile */
+    }
+
+    #heading_sub_ul {
+        display: none;
+    }
+
+    #image_slider {
+        width: 800%;
+
+    }
+
+    .image_text {
+        left: 6%;
+    }
+
+    #image_slider {
+        width: 800%;
+    }
+
+    .carousel-inner {
+        height: 2500px;
+    }
+
+    #header_container {
+        width: 1080px;
+        background-color: transparent !important;
+        transition: none !important;
+    }
+
+    #montana_icon {
+        width: 200px;
+        margin-left: -300px;
+
+        margin-top: 0px;
+    }
+
+    #heading_sub_ul_2 {
+        display: none;
+    }
+
+    #MQ_header {
+        display: block;
+        width: 1500px;
+        height: 800px;
+    }
+
+    #MQ_header h1 {
+        font-size: 80px;
+    }
+
+    #MQ_header_BUTTON {
+        background-color: #222;
+        color: white;
+        display: flex;
+        margin-left: -11px;
+        padding-left: 670px;
+        width: 108%;
+        height: 100px;
+
+    }
+
+    .bar_div {
+        width: 80px;
+        height: 5px;
+        margin-top: 20px;
+        margin-left: 5px;
+        background-color: white;
+
+    }
+
+    #demo {
+        font-size: 50px;
+        width: 1090px;
+    }
+
+    .dropdown_iteams {
+        width: 50%;
+    }
+
+    .down-arrow {
+        margin-left: 7px;
+        width: 5%;
+    }
+
+    #pages_and_arrow {
+        position: relative;
+        right: 0px;
+    }
+
+    #Hotel_with_Nature {
+        display: block;
+        gap: 20px;
+        top: 200px;
+        left: 450px;
+        height: 1700px;
+        padding-top: 0;
+        padding-left: 0;
+        padding: 25px;
+    }
+
+    #Hotel_with_Nature_images {
+        display: flex;
+        width: 1800px;
+        gap: 10px;
+    }
+
+    .Hotel_with_Nature_img {
+        width: 29%;
+        height: 800px;
+    }
+
+    #Hotel_with_Nature_text {
+        font-size: 50px;
+    }
+
+    #Hotel_with_Nature_text h1 {
+        font-size: 100px;
+    }
+
+    #Ongoing_Offers_sub {
+        display: block;
+        gap: 0px;
+        text-align: left;
+        position: absolute;
+        left: 10px;
+        top: 190px;
+
+    }
+
+    .offers img {
+        width: 872px;
+        height: 370px;
+        transition: 0.5s;
+    }
+
+    .offers {
+        width: 100%;
+        height: auto;
+        margin-bottom: 10px;
+    }
+
+    #video_div_img {
+        width: 370%;
+        height: auto;
+        filter: brightness(70%);
+    }
+
+    #video_div {
+        position: relative;
+        z-index: 1;
+        text-align: center;
+        top: 1300px;
+    }
+
+    #video_text {
+        color: white;
+        position: absolute;
+        bottom: 200px;
+        left: 500px;
+        width: 100%;
+        z-index: 2;
+    }
+
+    #video_text h1 {
+        font-size: 50px;
+    }
+
+    #Fresh_and_Delicious_sub {
+        display: block;
+        position: relative;
+        /* ✅ ensures it stays in the flow */
+        width: 100%;
+        gap: 100px;
+    }
+
+    #Fresh_and_Delicious {
+        position: relative;
+        z-index: 2;
+        padding: 100px 20px;
+        /* adds vertical space */
+        background-color: white;
+        top: 1300px;
+        left: 270px;
+    }
+
+    #video_div {
+        position: relative;
+        z-index: 1;
+        margin-top: 100px;
+        /* ✅ push this section down */
+    }
+
+
+    #Fresh_and_Delicious_images {
+        display: flex;
+        width: 200%;
+        gap: 10px;
+    }
+
+    #Fresh_and_Delicious_images img {
+        width: 100%;
+        height: 540px;
+    }
+
+    #Fresh_and_Delicious_text {
+        margin-top: 50px;
+        width: 250%;
+        font-size: 30px;
+    }
+
+    #Featured_Rooms {
+        text-align: center;
+        margin-top: 1200px;
+        width: 100%;
+    }
+
+    #Reservation {
+        width: 100%;
+    }
+
+    #Reservation ul {
+        display: block;
+
+    }
+
+    .posts_div {
+        width: 100%;
+        height: 321px;
+        border: 1px solid black;
+    }
+
+    #insta_posts_row {
+        display: block;
+
+    }
+
+    #footer_section {
+        background-color: black;
+        color: grey;
+        position: relative;
+        height: 550px;
+    }
+
+    #footer_ul_1 {
+        display: block;
+        list-style-type: none;
+        gap: 100px;
+        top: 100px;
+        left: 60px;
+        position: absolute;
+    }
+
+
+    #footer_ul_2 {
+        display: block;
+        list-style-type: none;
+        margin-left: -20;
+    }
+
+    #submit {
+        background-color: #009DFF;
+        color: white;
+        border: none;
+        height: 29px;
+    }
+
+    #mail_field {
+        width: 60%;
+        margin-left: -30px;
+    }
+
+
+}
